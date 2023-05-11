@@ -33,7 +33,7 @@ namespace Delivery
         }
         private void back()
         {
-
+            
         }
 
         private void delivers(string address)
@@ -44,10 +44,13 @@ namespace Delivery
         }
         private void drives(string address)
         {
-            if (vehicle.check(address) != 0) 
+            liter = vehicle.check(address);
+            if (liter > 0) 
             {
-
+                vehicle.refuel(liter);
             }
+
+            vehicle.drive(address);
 
         }
         private Parcel picksUp()
