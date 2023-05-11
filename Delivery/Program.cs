@@ -25,13 +25,13 @@
         works           - done
         back            - x
         delivers        - done
-        drives          - x
-        picksUp         ???
+        drives          - done
+        picksUp         - ???
 
     Vehicle
         check           - done
         refuel          - done
-        drive           - x
+        drive           - done
         distance        - done
 
     Tank

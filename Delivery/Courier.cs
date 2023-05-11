@@ -25,6 +25,7 @@ namespace Delivery
                 if (vehicle.cargoBay.isEmpty())
                 {
                     back();
+                    break;
                 } else
                 {
                     delivers(string address);

@@ -35,7 +35,7 @@ namespace Delivery
         }
         public void drive(string address)
         {
-
+            tank.fuelLoss(distance(address) * consumption);
         }
 
         private int distance(string address)
