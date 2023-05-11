@@ -11,6 +11,12 @@ namespace Delivery
         private uint currentFuelLevel;
         private uint max;
 
+        public Tank(uint currentFuelLevel, uint max)
+        {
+            this.currentFuelLevel = currentFuelLevel;
+            this.max = max;
+        }
+
         public uint getFuelLevel()
         {
             return currentFuelLevel;

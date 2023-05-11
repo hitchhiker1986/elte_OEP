@@ -38,4 +38,6 @@
         getFuelLevel    - done
         fuelLoss        - done
         charge          - done
+
+    KONSTRUKTOROK!!!
  */

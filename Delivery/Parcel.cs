@@ -8,7 +8,12 @@ namespace Delivery
 {
     internal class Parcel
     {
-        private string? address;
+        private string address;
+        public Parcel(string address)
+        {
+            this.address = address;
+        }
+        
         public string getAddress()
         {
             return address;

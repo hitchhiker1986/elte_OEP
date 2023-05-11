@@ -14,6 +14,13 @@ namespace Delivery
         public Tank tank;
         public CargoBay cargoBay;
 
+        public Vehicle(double consumption, Tank tank, CargoBay cargoBay)
+        {
+            this.consumption = consumption;
+            this.tank = tank;
+            this.cargoBay = cargoBay;
+        }
+
         public uint check(string address)
         {
             uint liter = (uint)distance(address) * consumption);

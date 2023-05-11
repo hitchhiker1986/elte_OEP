@@ -11,6 +11,13 @@ namespace Delivery
     {
         public Vehicle vehicle;
         public string site;
+
+        public Courier(Vehicle vehicle, string site)
+        {
+            this.vehicle = vehicle;
+            this.site = site;
+        }
+
         public void works()
         {
             while (true)
