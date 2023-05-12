@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LaszloPapp1\\Source\\Repos\\elte_OEP\\Delivery\\Delivery.csproj": {}
+    "C:\\Users\\pappl\\Documents\\GitHub\\elte_OEP\\Delivery\\Delivery.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LaszloPapp1\\Source\\Repos\\elte_OEP\\Delivery\\Delivery.csproj": {
+    "C:\\Users\\pappl\\Documents\\GitHub\\elte_OEP\\Delivery\\Delivery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LaszloPapp1\\Source\\Repos\\elte_OEP\\Delivery\\Delivery.csproj",
+        "projectUniqueName": "C:\\Users\\pappl\\Documents\\GitHub\\elte_OEP\\Delivery\\Delivery.csproj",
         "projectName": "Delivery",
-        "projectPath": "C:\\Users\\LaszloPapp1\\Source\\Repos\\elte_OEP\\Delivery\\Delivery.csproj",
-        "packagesPath": "C:\\Users\\LaszloPapp1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LaszloPapp1\\Source\\Repos\\elte_OEP\\Delivery\\obj\\",
+        "projectPath": "C:\\Users\\pappl\\Documents\\GitHub\\elte_OEP\\Delivery\\Delivery.csproj",
+        "packagesPath": "C:\\Users\\pappl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pappl\\Documents\\GitHub\\elte_OEP\\Delivery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LaszloPapp1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pappl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

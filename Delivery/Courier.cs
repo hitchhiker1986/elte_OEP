@@ -22,31 +22,25 @@ namespace Delivery
 
         public void works()
         {
-            while (true)
+            Console.WriteLine(vehicle.tank.getFuelLevel());
+            while (!vehicle.cargoBay.isEmpty())
             {
-                if (vehicle.cargoBay.isEmpty())
-                {
-                    back();
-                    break;
-                } else
-                {
-                    delivers();
-                }
+                delivers();
+                Console.WriteLine(vehicle.tank.getFuelLevel());
             }
+            back();
         }
         private void back()
         {
             if (position != site)
             {
                 drives(site);
+                Console.WriteLine("Coming home.");
             }
 
             while(vehicle.cargoBay.isEnoughSpace()) 
             {
-                while(true) //ezt foreach-re atirni
-                {
                     vehicle.cargoBay.putIn(picksUp());
-                }
             }
             
         }
@@ -60,12 +54,13 @@ namespace Delivery
         private void drives(string address)
         {
             uint liter = vehicle.check(address);
-            if (liter > 0) 
+            if (liter == 0) 
             {
                 vehicle.refuel((uint)liter);
             }
 
             vehicle.drive(address);
+            position = address;
 
         }
         private Parcel picksUp()

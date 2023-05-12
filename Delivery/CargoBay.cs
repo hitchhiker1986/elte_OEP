@@ -9,12 +9,12 @@ namespace Delivery
     internal class CargoBay
     {
         private int capacity;
-        public List<Parcel>? parcel = new List<Parcel>();
+        public List<Parcel>? parcel;
 
         public CargoBay(int capacity)
         {
             this.capacity = capacity;
-            parcel = null;
+            parcel = new List<Parcel>();
             
         }
         public void putIn(Parcel p)
