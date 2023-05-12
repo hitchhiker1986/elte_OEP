@@ -11,11 +11,13 @@ namespace Delivery
     {
         public Vehicle vehicle;
         public string site;
+        private string position;
 
         public Courier(Vehicle vehicle, string site)
         {
             this.vehicle = vehicle;
             this.site = site;
+            position = site;
         }
 
         public void works()
@@ -28,16 +30,28 @@ namespace Delivery
                     break;
                 } else
                 {
-                    delivers(string address);
+                    delivers();
                 }
             }
         }
         private void back()
         {
+            if (position != site)
+            {
+                drives(site);
+            }
+
+            while(vehicle.cargoBay.isEnoughSpace()) 
+            {
+                while(true) //ezt foreach-re atirni
+                {
+                    vehicle.cargoBay.putIn(picksUp());
+                }
+            }
             
         }
 
-        private void delivers(string address)
+        private void delivers()
         {
             Parcel p = vehicle.cargoBay.choose();
             drives(p.getAddress());
@@ -45,10 +59,10 @@ namespace Delivery
         }
         private void drives(string address)
         {
-            liter = vehicle.check(address);
+            uint liter = vehicle.check(address);
             if (liter > 0) 
             {
-                vehicle.refuel(liter);
+                vehicle.refuel((uint)liter);
             }
 
             vehicle.drive(address);
@@ -57,6 +71,7 @@ namespace Delivery
         private Parcel picksUp()
         {
             return new Parcel();
+            
         }
     }
 }

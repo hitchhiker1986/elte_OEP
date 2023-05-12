@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            CargoBay cb1 = new CargoBay(5);
+            Tank t1 = new Tank(50, 50);
+            Vehicle v1 = new Vehicle(8, t1, cb1);
+            Courier courier1 = new Courier(v1, "Budapest, Gabor Denes utca 2");
+            Parcel p1 = new Parcel("Zalaegerszeg, Fo ut 198");
         }
     }
 }

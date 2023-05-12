@@ -1,0 +1,15 @@
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\obj\Debug\net6.0\Delivery.csproj.AssemblyReference.cache
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\obj\Debug\net6.0\Delivery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\obj\Debug\net6.0\Delivery.AssemblyInfoInputs.cache
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\obj\Debug\net6.0\Delivery.AssemblyInfo.cs
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\obj\Debug\net6.0\Delivery.csproj.CoreCompileInputs.cache
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\bin\Debug\net6.0\Delivery.exe
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\bin\Debug\net6.0\Delivery.deps.json
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\bin\Debug\net6.0\Delivery.runtimeconfig.json
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\bin\Debug\net6.0\Delivery.dll
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\bin\Debug\net6.0\Delivery.pdb
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\obj\Debug\net6.0\Delivery.dll
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\obj\Debug\net6.0\refint\Delivery.dll
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\obj\Debug\net6.0\Delivery.pdb
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\obj\Debug\net6.0\Delivery.genruntimeconfig.cache
+C:\Users\LaszloPapp1\Source\Repos\elte_OEP\Delivery\obj\Debug\net6.0\ref\Delivery.dll

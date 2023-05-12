@@ -23,19 +23,19 @@ namespace Delivery
 
         public uint check(string address)
         {
-            uint liter = (uint)distance(address) * consumption);
+            uint liter = (uint)distance(address) * (uint)consumption;
 
             return liter - tank.getFuelLevel() > 0 ? liter - tank.getFuelLevel() : 0;
             
         }
 
-        public void refuel(int liter)
+        public void refuel(uint liter)
         {
             tank.charge(liter);
         }
         public void drive(string address)
         {
-            tank.fuelLoss(distance(address) * consumption);
+            tank.fuelLoss((uint)distance(address) * (uint)consumption);
         }
 
         private int distance(string address)

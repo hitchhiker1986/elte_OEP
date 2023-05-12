@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\OEP\\Delivery\\Delivery.csproj",
+      "projectUniqueName": "C:\\Users\\LaszloPapp1\\Source\\Repos\\elte_OEP\\Delivery\\Delivery.csproj",
       "projectName": "Delivery",
-      "projectPath": "C:\\OEP\\Delivery\\Delivery.csproj",
+      "projectPath": "C:\\Users\\LaszloPapp1\\Source\\Repos\\elte_OEP\\Delivery\\Delivery.csproj",
       "packagesPath": "C:\\Users\\LaszloPapp1\\.nuget\\packages\\",
-      "outputPath": "C:\\OEP\\Delivery\\obj\\",
+      "outputPath": "C:\\Users\\LaszloPapp1\\Source\\Repos\\elte_OEP\\Delivery\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

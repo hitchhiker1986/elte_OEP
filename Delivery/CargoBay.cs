@@ -31,6 +31,7 @@ namespace Delivery
         {
             parcel.Remove(p);
             capacity++;
+            return p;
         }
 
         public bool isEnoughSpace()

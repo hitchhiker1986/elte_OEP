@@ -22,7 +22,7 @@ namespace Delivery
             return currentFuelLevel;
         }
 
-        public void fuelLoss(unsigned int liter)
+        public void fuelLoss(uint liter)
         {
             if (liter > currentFuelLevel)
             {
@@ -34,10 +34,17 @@ namespace Delivery
             
         }
 
-        public void charge(int liter)
+        public void charge(uint liter)
         {
 
-            if currentFuelLevel + liter > max ? currentFuelLevel = max : currentFuelLevel += liter;
+            if ((currentFuelLevel + liter) > max)
+            {
+                currentFuelLevel = max;
+            }
+            else
+            {
+                currentFuelLevel += liter;
+            }
                        
         }
     }
