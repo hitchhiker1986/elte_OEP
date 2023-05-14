@@ -32,6 +32,7 @@ namespace Delivery
         public void refuel(uint liter)
         {
             tank.charge(liter);
+            Console.WriteLine("Tank refueled. New Fuel level is: " + tank.getFuelLevel());
         }
         public void drive(string address)
         {

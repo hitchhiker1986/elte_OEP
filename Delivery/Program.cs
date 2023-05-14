@@ -7,16 +7,16 @@
             CargoBay cb1 = new CargoBay(5);
             Tank t1 = new Tank(50, 50);
             Vehicle v1 = new Vehicle(3, t1, cb1);
-            Courier courier1 = new Courier(v1, "Budapest, Gabor Denes utca 2");
-            Parcel p1 = new Parcel("Fo ut 198");
-            Parcel p2 = new Parcel("Kossuth Lajos utca 123 ");
-            Parcel p3 = new Parcel("Toth Otto ut 5");
-            Parcel p4 = new Parcel("Nevtelen utca 1");
-            Parcel p5 = new Parcel("Ady ut 1");
+            Courier courier1 = new Courier(v1, "Budapest");
+            Parcel p1 = new Parcel("Vac");
+            Parcel p2 = new Parcel("Debrecen");
+            Parcel p3 = new Parcel("Gyor");
+            Parcel p4 = new Parcel("Kaposvar");
+            Parcel p5 = new Parcel("Pecs");
             cb1.putIn(p5);
             cb1.putIn(p1);
-            //cb1.putIn(p1);
-            //cb1.putIn(p3);
+            cb1.putIn(p1);
+            cb1.putIn(p3);
             courier1.works();
         }
     }

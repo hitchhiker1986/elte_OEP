@@ -54,7 +54,7 @@ namespace Delivery
         private void drives(string address)
         {
             uint liter = vehicle.check(address);
-            if (liter == 0) 
+            if (liter > 0) 
             {
                 vehicle.refuel((uint)liter);
             }
